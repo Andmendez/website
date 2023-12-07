@@ -123,6 +123,7 @@ def main(page: ft.Page):
     output_text = ft.Text()
     submit_btn = ft.ElevatedButton(text="Submit", on_click=button_clicked)
     color_dropdown = ft.Dropdown(
+        label = "Colors",
         width=100,
         options=[
             ft.dropdown.Option("Red"),
